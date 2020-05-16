@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<html lang="fr">
+	  <head>
+	  	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<title>La Fosse Aux Jeux | Inscription</title>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+	  </head>
+
+	  <body>
+
+	  	<div class="nav">
+	      <div class="container">
+	      	<nav>
+		        <ul>
+		          <li><a href="index.php">Accueil</a></li>        	
+		          <li><a href="propos.html">A propos</a></li>
+		          <li><a href="contact.php">Contact</a></li>
+		        </ul>
+	    	</nav>
+	      </div>
+	    </div>
+
+	    <!-- Formulaire d'inscription -->
+	  	<div class="form">	
+	  		<form action = "verif.php" method="post"> <!-- Envoie des données cers un autre fichier de vérification -->
+	  			<fieldset>
+	  				
+	  				<legend>Inscription</legend>
+					  	<label for="prenom">Prenom:</label>
+					  	<input type="text" name="prenom" id="prenom" size="15" value=""><br>
+
+					   	<label for="nom">Nom:</label>
+					  	<input type="text" name="nom" id="nom" size="15" value=""><br>
+
+					  	<label for="motdepasse">MotDePasse:</label>
+					  	<input type="password" name="motdepasse" id="motdepasse" size="30" value=""><br>
+					  	
+					  	<label for="Rmotdepasse">Retaper:</label>
+					  	<input type="password" name="Rmotdepasse" id="Rmotdepasse" size="30" value=""><br>
+
+					  	<label for="pseudo">Pseudo:</label>
+					  	<input type="text" name="pseudo" size="30" id="pseudo" value=""><br>
+
+					  	<label for="mail">Mail:</label>
+					  	<input type="text" name="mail" size="30" id="mail" value=""><br>
+
+	  			</fieldset>
+
+	  				<input type="submit" value="Envoyer" name="send">
+	  				<input type="reset" value="Effacer" name="clear">
+
+	  		</form>
+		</div>
+	  </body>
+
+	</html>  

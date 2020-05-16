@@ -1,0 +1,184 @@
+ body {
+  background-image: url(image/bas3.jpg);
+}
+
+.form{
+  margin: auto;
+  width:730px;
+}
+
+p {
+  margin-top: 0px;
+}
+ 
+fieldset {
+  background: url(image/fond2.jpg) center center;
+  background-size: cover;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 20px;
+  color: white;
+}
+ 
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  color: white;
+}
+
+input, textarea {
+  width: 249px;
+}
+ 
+textarea {
+  height: 100px;
+}
+ 
+select {
+  width: 254px;
+}
+
+h1.accueil{
+ text-align: center;
+}
+
+a.retour{
+  display: block;
+  height: 700px;
+  width: 450px;
+  top:25%;
+  margin: auto;
+}
+
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s;
+  text-decoration: none; 
+}
+
+.nav ul li a{
+  text-decoration: none; 
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;   
+}
+
+.gestion{
+  background: url(image/bas1.jpg) center center;
+  background-size: cover;
+  height:800px;
+}
+
+#Ban{
+  display: inline;
+  float: right;
+}
+#modo{
+  display: inline;
+  clear:right;
+  float: right;
+
+}
+
+td{
+   border: 2px solid #e00602;
+   text-align: left;
+   font-size: 20px;
+   color: white;
+   background-color: black;
+
+}
+
+table{
+  position: absolute;
+  top: 12%;
+  border-collapse:collapse;
+}
+
+caption{
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.export{
+  background-color: white;
+  border-width: 5px solid black;
+  margin-right:6px;
+  display: inline;
+  clear:right;
+  float: right;
+  margin-top:10px;
+  box-shadow: 8px 8px 0px #aaa;
+}
+
+#article{
+  background-color: #cfc6b9;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: thick double black;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align:center;
+}
+
+#commentaires{
+  background-color: #cfc6b9;
+  box-shadow: 5px 5px 0px #aaa;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#article p{
+  padding: 10px;
+  text-align:justify;
+  font-size: 20px;
+  text-indent: 5%;
+  font-family: sans-serif;
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+
+.export a{
+  padding: 10px;
+}
+
+h1.confirmation{
+  position: absolute;
+  right: 35%;
+}
+

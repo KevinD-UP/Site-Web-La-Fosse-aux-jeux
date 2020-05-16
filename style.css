@@ -1,0 +1,272 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
+.header {
+  background: url(image/fond1.png) center center;
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: #fff;
+  line-height: 100px; 
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase; 
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase;  
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s;
+  text-decoration: none; 
+}
+
+.nav ul li a{
+  text-decoration: none; 
+  color: white;
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;   
+}
+
+.main .container {
+  margin: 0px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+.jumbotron {
+  background: url(image/bas2.png) center center;
+  background-size: cover;
+  height: 600px; 
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  text-align: right; 
+}
+
+.jumbotron h3 {
+  color: #fff;
+  text-align: right; 
+}
+
+
+.jumbotron p {
+  color: #fff; 
+  text-align: right; 
+}
+
+.jumbotron .btn {
+  margin: 10px 0 0;
+  float: right; 
+}
+
+.footer { 
+  background: #000;
+  height: 80px; 
+  padding-bottom: 0px;
+}
+
+.footer p { 
+  color: #fff;
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+fieldset {
+  background: url(image/bas1.jpg) center center;
+  background-size: cover;
+  margin-bottom: 15px;
+  padding: 10px;
+
+}
+
+.corps{
+  background: url(image/sujet.jpg) center center;
+  background-size: cover;
+  height: 800px;
+  
+}
+
+legend{
+ padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: black;
+}
+
+label{
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  font-size: 20px;
+  color: black;
+}
+
+.form{
+  text-align: center;
+  margin: auto;
+  width:730px;
+}
+
+input{
+  height:25px;
+}
+
+#forum{
+  background: url(image/fond3.jpg) center center;
+  background-size: cover;
+  height: 700px;
+ }
+
+#fieldset1{
+  float: left;
+
+}
+#fieldset2{
+  float: right;
+}
+
+div{
+  clear:left;
+}
+
+#membres{
+  background-image: url(image/bas1.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+
+h2{
+  text-align: center;
+  color:white;
+}
+
+#connecter{
+  text-align: right;
+  position: absolute;
+}
+
+#propos{
+  background-image: url(image/propos.jpg);
+  background-size: cover;
+}
+ 
+ul li a.listeArticle{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+table{
+  border: 3px solid black;
+  padding: 8px;
+  font-family: sans-serif;
+  margin-left: 5px;
+
+}
+td{
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+td a{
+  text-decoration: none;
+}
+
+caption{
+  margin-bottom: 3px;
+  font-size: 30px;
+}
